@@ -13,7 +13,6 @@ const app = Vue.createApp({
       if (randomNumber < 0.5) {
         return this.courseGoalA;
       } else {
-        console.log(this)
         return this.courseGoalB;
       }
     }
